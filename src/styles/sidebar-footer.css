@@ -1,0 +1,236 @@
+body{
+    background-color: black;
+    font-family: var(--font-dm-sans);
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar_navigation{
+    background-color: var(--bg-general);
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar_navigation .logo{
+    background-color: var(--bg-general);
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar_navigation .logo img{
+    width: 80px;
+}
+
+.sidebar nav ul{
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.library{
+    background-color: var(--bg-general);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px 16px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.library .library__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__button{
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: 0;
+    padding: 20px 10px;
+    display: flex;
+}
+
+.library .library__button .fa{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.library .library__content .fa-plus{
+    margin: 24px 10px;
+}
+
+.playlist__create{
+    display:flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #3d3f3d;
+    font-weight: 600;
+    font-size: 14px;
+    color: #b3b3b3;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+.playlist__create .playlist__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.playlist__content .text{
+    padding: 0 0 14px;
+    color: var(--font-titles);
+}
+
+.playlist__content .title{
+    font-weight: 700;
+}
+
+.playlist__content .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.playlist__create .playlist__content button{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-color: transparent;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+    width: 113px;
+    margin-top: 12px;
+}
+
+.sidebar .cookies{
+    margin: 25px 20px;
+}
+
+.sidebar .cookies a{
+    text-decoration: none;
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.sidebar .cookies a:hover{
+    text-decoration: underline;
+}
+
+.languages button{
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: var(--font-titles);
+    font-weight: bold;
+    cursor: pointer;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.music-genres{
+    background-color: #2a352a;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.music-genres h3{
+    padding: 10px;
+    color:rgb(255, 255, 255)
+}
+
+.music-genres ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.music-genres ul li{
+    padding: 0 5px 10px 7px;
+    color: rgb(141, 235, 141);
+    font-size: 10px;
+}
+
+.music-genres ul li:hover{
+    color:var(--font-titles);
+}
+
+.advertising{
+    position: fixed;
+    top: 625px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    gap: 375px;
+    padding: 10px;
+    width: 1340px;
+    height: 500px;
+    background-image: linear-gradient(to right, #7af5ba, #19ff90, #62f589, #31f766, #07b034);
+}
+
+.advertising__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.textAd{
+    margin-left: 40px;
+    color: #000;
+}
+
+.titleAd{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.subtitleAd{
+    margin-top: 6px;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.advertising__subscribe button{
+    border-radius: 15px;
+    border-color: transparent;
+    padding: 10px;
+    font-weight: 600;
+}

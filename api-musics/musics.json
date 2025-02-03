@@ -1,0 +1,32 @@
+{
+    "musics": [
+        {
+            "id": 1,
+            "title": "Tudo Pro Alto",
+            "artist": "Charlie Brown Jr",
+            "album": "100% Charlie Brown Jr - Abalando A Sua Fábrica",
+            "urlImg": "https://i.scdn.co/image/ab67616d0000b2739ce3f2af269f08d61ac2ab9e"
+        },
+        {
+            "id": 2,
+            "title": "Não Dá Certo",
+            "artist": "Supercombo",
+            "album": "Sal Grosso",
+            "urlImg": "https://i.scdn.co/image/ab67616d0000b273d7d547808d5b7ee74453d25c"
+        },
+        {
+            "id": 3,
+            "title": "Bom Te Ver",
+            "artist": "Medulla",
+            "album": "Medulla",
+            "urlImg": "https://i.scdn.co/image/ab67616d0000b2731140c2eb587bb4c8dfbfb7bc"
+        },
+        {
+            "id": 4,
+            "title": "Rodo Cotidiano",
+            "artist": "O Rappa",
+            "album": "O Silêncio Q Precede O Esporro",
+            "urlImg": "https://i.scdn.co/image/ab67616d0000b273d3f41203a7ecad33840ba9d9"
+        }
+    ]
+}
