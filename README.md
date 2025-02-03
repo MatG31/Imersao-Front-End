@@ -1,0 +1,3 @@
+# Imersao-Front-End
+Este é um projeto desenvolvido com fins de aprendizado por meio da Imersão Front-End ministrada pela alura, no decorrer das aulas foi possível compreender mais sobre estilização com layouts responsivos em CSS, estruturação da página com HTML e interatividade por meio de requisições delimitadas em JavaScript.
+Ele possui algumas funcionalidades para além do modelo apresentado pelos instrutores, como uma seção de busca por música que está com o código comentado, a fim de que essa e outras funcionem corretamente é necessário iniciar um JSON server e remover a sintaxe de comentário.
